@@ -1,5 +1,5 @@
 # Karabiner
-Shortcut keys for faster navigation. Capslock is a useless key and very rarely needs to be used. 
+Shortcut keys for faster navigation. Capslock is a throwaway key and very rarely needs to be used. 
 After editing system prefences and changing Capslock to Control the follwing script will change 
 how Capslock behaves with other keypresses. For example, Capslock + J moves one word back, 
 Capslock + U moves the cursor to the front of the line, Capslock + , loads the previous web page. 
