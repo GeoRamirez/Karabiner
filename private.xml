@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Capslock upgrade</name>
+        <identifier>private.capslock_upgrade</identifier>
+        
+<!-- Google Play Music -->
+<!-- Don't like -->
+        <autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::CONTROL_L, KeyCode::KEYPAD_MINUS,
+            ModifierFlag::CONTROL_L</autogen>
+        
+<!-- Like song -->
+        <autogen>__KeyToKey__ KeyCode::COMMAND_L, ModifierFlag::CONTROL_L, KeyCode::KEYPAD_EQUAL, ModifierFlag::CONTROL_L</autogen>
+        
+        
+<!-- Quicker text movement -->
+<!-- Up -->
+        <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+        
+<!-- Down -->
+        <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+        
+<!-- One word back -->
+        <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT,
+            ModifierFlag::OPTION_L</autogen>
+        
+<!-- One word forward -->
+        <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+        
+<!-- Highlight previous word -->
+        <autogen>__KeyToKey__ KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        
+<!-- Highlight next word -->
+        <autogen>__KeyToKey__ KeyCode::Y, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        
+<!-- Beginning of line -->
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- End of line -->
+        <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- Page up -->
+        <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::CONTROL_L, KeyCode::PAGEUP</autogen>
+        
+<!-- Page down -->
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::CONTROL_L, KeyCode::PAGEDOWN</autogen>
+
+        
+        
+<!-- Browser shortcuts -->
+<!-- Close window -->
+        <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::CONTROL_L, KeyCode::W, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- Reopen closed tab -->
+        <autogen>__KeyToKey__ KeyCode::T, ModifierFlag::CONTROL_L, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+        
+<!-- Open selected item in new tab -->
+        <autogen>__KeyToKey__ KeyCode::RETURN, ModifierFlag::CONTROL_L, KeyCode::RETURN, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- Load previous page -->
+        <autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::CONTROL_L, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- Load next page -->
+        <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::CONTROL_L, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L</autogen>
+        
+<!-- Refresh page -->        
+        <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::CONTROL_L, KeyCode::R, ModifierFlag::COMMAND_L</autogen>
+        
+    </item>
+    
+    
+    <item>
+<!-- Delete selected emails within gmail -->
+        <name>Gmail delete</name>
+        <identifier>private.gmail_delete</identifier>
+        <only>GOOGLE_CHROME, FIREFOX</only>
+        <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::CONTROL_L, KeyCode::3, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+<!-- Clear terminal window -->
+        <name>Bash clear</name>
+        <identifier>private.bash_clear</identifier>
+        <only>TERMINAL</only>
+        <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::CONTROL_L, KeyCode::L, ModifierFlag::CONTROL_L</autogen>
+    
+    </item>
+    
+    
+</root>
